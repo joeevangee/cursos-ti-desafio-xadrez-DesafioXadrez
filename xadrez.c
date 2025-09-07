@@ -6,8 +6,9 @@
 
 int main() {
 
-    float dama, bispo, torre;
-    
+    int dama, bispo, torre;
+
+
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
 
