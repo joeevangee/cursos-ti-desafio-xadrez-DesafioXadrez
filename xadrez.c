@@ -5,8 +5,44 @@
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
 int main() {
+    printf("Desafio de Xadrez!\n");
+    printf("Novo Commit!\n");
 
-    int dama, bispo, torre;
+        int bispo, rainha;
+        int movimentos_rainha = 1;
+
+        bispo = 1;
+        rainha = 1;
+         
+            printf("\n --- Movimento da Torre! --- \n");
+            for (int torre = 1; torre <= 5; torre++)
+            {
+                printf("Voce vai mover sua torre");
+                printf("Para a direita %d \n", torre);
+            } 
+
+            printf("\n--- Movimento do Bispo! ---\n");
+            while (bispo <= 5)
+        {
+            printf("Voce vai mover seu Bispo para");
+            printf("Diagonal Direita: %d \n", bispo);
+            bispo++;
+            
+        } 
+            printf("\n--- Movimento da Rainha! ---\n");    
+            do {
+                printf("Voce vai mover sua rainha para ");
+                printf("Esquerda! %d \n", rainha);
+                rainha++;
+                movimentos_rainha++;
+
+            } while (movimentos_rainha < 9);
+            
+
+        
+
+
+    
 
 
     // Nível Novato - Movimentação das Peças
